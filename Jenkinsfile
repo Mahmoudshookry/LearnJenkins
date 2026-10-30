@@ -18,15 +18,17 @@ pipeline {
             steps{
 
                 script {
-                    gv = load "scrip.groovy"
+                    gv = load "script.groovy"
                 }
             }
             
         }
         stage('Build') {
             steps {
-                script {}
-                gv.buildApp()
+                script {
+                   gv.buildApp() 
+                }
+                
             }
         }
 
