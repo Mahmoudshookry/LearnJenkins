@@ -19,6 +19,7 @@ def deployApp(){
   sh "docker push ${IMAGE_NAME}:${params.VERSION}"
   sh 'docker logout'
 }
+}
 
 
 return this
