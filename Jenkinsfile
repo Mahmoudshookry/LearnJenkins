@@ -19,6 +19,7 @@ pipeline {
 
                 script {
                     gv = load "script.groovy"
+                    echo "test great"
                 }
             }
             
