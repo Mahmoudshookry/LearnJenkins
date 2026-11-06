@@ -19,7 +19,7 @@ pipeline {
 
                 script {
                     gv = load "script.groovy"
-                    echo "test great now"
+                    echo "test great now1"
                 }
             }
             
